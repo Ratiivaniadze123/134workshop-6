@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.pirvelip:hover{
+    color: red;
+}
+body{
+    background-color: #b2ffdf;
+}
+.gilaki, .shavi{
+    padding: 10px 15px;
+    border: 1px solid red;
+    text-align: center;
+    width: 200px;
+    margin: 20px auto;
+}
+.gilaki:hover{
+    background-color: black;
+}
+.gilaki:hover .gilakip{
+    background-color: black;
+    color: #ffffff;
+
+}
+/* .shavi{
+    padding: 10px 15px;
+    border: 1px solid red;
+    text-align: center;
+    width: 200px;
+    margin: 20px auto;
+    } */
+    .shavi{
+        background-color: #000000;
+        color: #ffffff;
+        box-shadow: 0px 0px 10px red;
+    }
+
+.shavi:hover{
+    background-color: rgba(25, 143, 35, 0);
+}
+.shavi:hover .shavip{
+    color: black;
+}
